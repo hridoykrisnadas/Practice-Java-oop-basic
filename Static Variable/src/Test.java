@@ -10,6 +10,7 @@ public class Test {
         s2.setinfo("Shimla Das", "Female");
         s2.Display();
 
+        s1.TotalStudent();
     }
 
 }

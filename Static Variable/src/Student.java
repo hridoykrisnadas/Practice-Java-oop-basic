@@ -7,7 +7,6 @@ public class Student {
     void setinfo(String n, String G) {
         Name = n;
         Gender = G;
-
     }
 
     void Display() {
@@ -16,4 +15,16 @@ public class Student {
         System.out.println("Institute: " + Institute);
         System.out.println("\n");
     }
+
+    static int count = 0;
+
+    Student() {
+        count++;
+
+    }
+
+    void TotalStudent() {
+        System.out.println("Total Student: " + count);
+    }
+
 }
